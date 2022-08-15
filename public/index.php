@@ -2,6 +2,8 @@
 
 declare(strict_types = 1);
 
+include '../views/transactions.php';
+
 $root = dirname(__DIR__) . DIRECTORY_SEPARATOR;
 
 define('APP_PATH', $root . 'app' . DIRECTORY_SEPARATOR);
